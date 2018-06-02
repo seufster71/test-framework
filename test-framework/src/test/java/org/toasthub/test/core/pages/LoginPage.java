@@ -12,7 +12,7 @@ public class LoginPage {
 		
 		Driver.findOrWaitById("LOGIN_FORM-LOGIN_FORM_USERNAME").sendKeys("cborgAdmin");
 	
-		Driver.findOrWaitById("LOGIN_FORM-LOGIN_FORM_PASSWORD").sendKeys("Fast8Run#");
+		Driver.findOrWaitById("LOGIN_FORM-LOGIN_FORM_PASSWORD").sendKeys("test");
 		
 		Driver.findOrWaitById("LOGIN_FORM_SUBMIT_BUTTON").click();
 		
